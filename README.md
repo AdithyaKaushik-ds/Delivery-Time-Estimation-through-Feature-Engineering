@@ -18,21 +18,15 @@ Machine Learning Models (e.g., Linear Regression, XGBoost)
 🔍 Core Focus Areas
 Column Profiling: Analyzed dataset columns to understand semantics and prepare for transformation.
 
-Data Cleaning:
-
-Treated missing values and handled outliers using hypothesis testing and distributional analysis.
+Data Cleaning: Treated missing values and handled outliers using hypothesis testing and distributional analysis.
 
 Feature Engineering:
+- Created new informative features (e.g., total distance, time difference, encoded categorical variables).
+- Performed date-time transformation and geolocation-based calculations.
 
-Created new informative features (e.g., total distance, time difference, encoded categorical variables).
-
-Performed date-time transformation and geolocation-based calculations.
-
-Modeling:
-
-Trained multiple regression models to estimate delivery time.
-
-Selected the best-performing model based on R², MAE, and RMSE metrics.
+Modeling: 
+- Trained multiple regression models to estimate delivery time.
+- Selected the best-performing model based on R², MAE, and RMSE metrics.
 
 📊 Results & Insights
 Significant improvement in model performance post feature engineering.
